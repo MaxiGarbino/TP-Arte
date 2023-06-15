@@ -1,0 +1,43 @@
+*{
+    
+}
+body{
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.DivIntegrantes{
+    height: 23%;
+    width: auto;
+}
+header{
+    justify-content: center;
+}
+.Navegador1 {
+    background-color: #91e5ff98;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+.Navegador1 img{
+    width: 7%;
+    height: auto;
+}
+.Navegador1 li {
+    display: inline;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.Navegador1 li a {
+    text-decoration: none;
+    color: #fdffff;
+    border-radius: 5px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Navegador1 li a:hover {
+    background-color: #ddd;
+}
