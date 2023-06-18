@@ -1,20 +1,32 @@
 *{
     
 }
-body{
+.bodyIndex{
     background-image: url("fondo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.DivIntegrantes{
-    height: 23%;
-    width: auto;
-}
 header{
     justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.AnimacionInicio{
+    opacity: 0;
+    animation: fade-in 3s forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 5;
+    }
 }
 .Navegador1 {
-    background-color: #91e5ff98;
+    background-color: #E0A151;
     padding: 10px;
     margin-top: 0px;
     text-align: center;
@@ -38,6 +50,144 @@ header{
     transition-duration: 0.5s;
     font-family: Arial, Helvetica, sans-serif;
 }
+.Navegador2 li{
+    list-style: none;
+    display: inline;
+}
+.Navegador2 li a {
+    text-decoration: none;
+    color: #fdffff;
+    border-radius: 5px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .Navegador1 li a:hover {
     background-color: #ddd;
 }
+.DivIntegrantes{
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 1%;
+    margin: 1%;
+    width: 20.78%;
+    height: 21%;
+    float:right;
+    text-align: center;
+        
+}
+.imgfondo{
+    width: 100%;
+    height: 100%;
+    background-image: url(RobertoMusso.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.curiosity-carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 20px;
+    margin: 0 auto;
+    width: 85%;
+  }
+  
+  .curiosity-slide {
+    flex: 0 0 40%;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .curiosity-slide::before,
+  .curiosity-slide::after {
+    content: "";
+    display: block;
+    flex: 0 0 20%;
+  }
+  
+  .curiosity-slide::before {
+    background: linear-gradient(to right, transparent, #f9f9f9);
+  }
+  
+  .curiosity-slide::after {
+    background: linear-gradient(to left, transparent, #f9f9f9);
+  }
+  html, body {
+    height: 100%;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    
+  }
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -80px;
+  }
+  .content {
+    min-height: calc(100% - 80px);
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+  }
+  .social-media img{
+    height: 10%;
+    width: 10%;
+  }
+  .contenido {
+    margin-top:200px;
+  }
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-menu ul li:last-child {
+    margin-right: 0;
+  }
+  .fondoCuriosidades{
+    background-color: #9D5800;
+  }
+  
+  .footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
+  
+  
+  
+  
