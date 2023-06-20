@@ -119,10 +119,27 @@
   margin: 1%;
   width: 20.78%;
   height: 21%;
-  float: right;
+  float: left;
   text-align: center;
   background-color: white;
 
+}
+
+.Disco{
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 1%;
+  margin: 1%;
+  width: 15.78%;
+  height: 21%;
+  float: left;
+  text-align: center;
+  background-color: white;
+}
+
+.Disco img{
+  width: 50%;
+  height: auto;
 }
 
 .curiosity-carousel {
