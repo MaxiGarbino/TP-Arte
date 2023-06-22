@@ -2,13 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
-.fondoShows {
-  background-color: #E0A151;
+body{
+  background-color: #E0A151
 }
-
-
-
 .imagen {
   background-image: url("https://es.rollingstone.com/wp-content/uploads/2022/11/APERTURA-WEB-Cuarteto-E-GENTILEZA-DE-Karin-Topo18118-1color-1.jpg");
   width: 100%;
@@ -94,20 +90,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.Navegador2 li {
-  list-style: none;
-  display: inline;
-}
-
-.Navegador2 li a {
-  text-decoration: none;
-  color: #fdffff;
-  border-radius: 5px;
-  font-size: 20px;
-  transition-duration: 0.5s;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .Navegador1 li a:hover {
   background-color: #ddd;
 }
@@ -124,7 +106,6 @@
   background-color: white;
 
 }
-
 .Disco{
   border: 2px solid black;
   border-radius: 100px;
@@ -150,9 +131,10 @@
   padding: 20px;
   margin: 0 auto;
   width: 85%;
+  
 }
 
-.curiosity-slide {
+.curiosity-carousel div{
   flex: 0 0 40%;
   margin-right: 20px;
   scroll-snap-align: start;
@@ -162,24 +144,19 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.curiosity-slide::before,
-.curiosity-slide::after {
+.curiosity-carousel div ::before,
+.curiosity-carousel div ::after {
   content: "";
   display: block;
   flex: 0 0 20%;
 }
 
-.curiosity-slide::before {
+.curiosity-carousel div ::before {
   background: linear-gradient(to right, transparent, #f9f9f9);
 }
 
-.curiosity-slide::after {
+.curiosity-carousel div ::after {
   background: linear-gradient(to left, transparent, #f9f9f9);
-}
-
-html,
-body {
-  height: 100%;
 }
 
 .footer {
@@ -187,35 +164,22 @@ body {
   color: #fff;
   padding: 20px;
   position: relative;
-
-}
-
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -80px;
-}
-
-.content {
-  min-height: calc(100% - 80px);
-}
-
-.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.footer-content {
+.footer div {
   display: flex;
   align-items: center;
 }
 
-.social-media img {
+.footer div img {
   height: 10%;
   width: 10%;
 }
 
-.social-media a {
+.footer div a {
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
@@ -237,15 +201,7 @@ body {
   margin-right: 0;
 }
 
-.fondoCuriosidades {
-  background-color: #9D5800;
-}
-
 .footer-menu ul li a {
   color: #fff;
   text-decoration: none;
-}
-
-.footer-text {
-  margin: 0;
 }
